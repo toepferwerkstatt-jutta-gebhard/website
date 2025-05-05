@@ -1,0 +1,113 @@
+
+
+.navbar-brand{
+    font-family: "Lucida Handwriting", cursive;;
+}
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: white;
+    background-color: black;
+  }
+  
+.img-slide {
+    object-fit: cover;
+}
+
+.navbar-dark {
+    background-color: #000000 !important;
+}
+
+.btn-primary {
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+    object-fit: cover;
+}
+
+.img-thumbnail {
+    padding:.25rem;
+    background-color: #000000;
+    border:1px solid black;
+    border-radius:.25rem;
+    height: 300px;
+    object-fit: contain;
+}
+
+@media (min-width: 992px) {
+.img-thumbnail:hover {
+    border:3px solid white;
+}
+}
+
+@media (max-width: 992px) {
+    .img-thumbnail {
+        pointer-events: none;
+        cursor: default;
+    }
+}
+
+.img-fluid {
+    max-height: 90vh;
+    border:3px solid white;
+    object-fit: contain;
+}
+
+.modal-dialog {
+    align-items: center !important;
+    justify-content: center !important;
+    max-width: 90% !important; 
+}
+
+.modal-content {
+    width: 70% !important; 
+}
+
+.modal-body img {
+    max-width: 60% !important;
+}
+
+.gallery-header{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.page-wrapper{
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+hr {
+    border: 1px solid white !important;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.featurette {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: center;
+    align-items: center;
+}
+
+#kurs-container{
+    background-image: url("../images/steinzeit_toepfern.png");
+    height: 20rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+}
+
+#gallery-header{
+    background-image: url("../images/gallery.png");
+    height: 20rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+}
