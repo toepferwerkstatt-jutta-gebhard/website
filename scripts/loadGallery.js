@@ -3,6 +3,9 @@ function initializeGallery() {
       .then(response => response.json())
       .then(data => {
         const container = document.getElementById('gallery-container');
+        if (!container) {
+          return;
+        }
 
         for (const folder in data) {
           const heading = document.createElement('h2');
@@ -35,3 +38,7 @@ function initializeGallery() {
       imageModal.show(); 
     }
   });
+
+document.addEventListener("DOMContentLoaded", function () {
+  initializeGallery();
+});
